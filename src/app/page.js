@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <>
     <head>
-      <title >Natnael | Front-end Developer</title>
+      <title >Natnael | Front-end Web Developer</title>
     </head>
 
     <Navbar/>

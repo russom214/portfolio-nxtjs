@@ -31,6 +31,7 @@ const Navbar = () => {
   //   }
   // }, [router]);
 
+  //Scroll Shadow
   const handleNav = () => {
     setNav(!nav);
   };
@@ -66,9 +67,15 @@ const Navbar = () => {
           />
         </Link> */}
         <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden font-bold md:flex">
+          <ul
+            style={{ color: `${linkColor}` }}
+            className="hidden font-bold md:flex"
+          >
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/">Home</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b">
+              <Link href="/blog">Blog</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#about">About</Link>
@@ -78,9 +85,6 @@ const Navbar = () => {
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#projects">Projects</Link>
-            </li>
-            <li className="ml-10 text-sm uppercase hover:border-b">
-              <Link href="/resume">Resume</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link href="/#contact">Contact</Link>
