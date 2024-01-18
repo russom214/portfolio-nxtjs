@@ -88,9 +88,9 @@ const Projects = () => {
                 OpenAI API
               </p>
             </div>
-            {/* <p className="m-6">
+            <p className="m-6">
             OpenStream is a project within the LangChain ecosystem that seamlessly integrates various tools powered by OpenAI language models. This multifaceted platform offers a range of functionalities, including real-time streaming capabilities, efficient PDF conversion, and intelligent summarization.
-            </p> */}
+            </p>
             <div className="flex">
               <Link href="https://netflix-reactjs-f2e51.web.app">
                 <button className="px-8 py-2 m-8 mt-4 mr-8">Live Demo</button>

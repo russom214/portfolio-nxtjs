@@ -4,10 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "babel src -d lib",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export",
+    "output": "export",
     "deploy": "npm run build && npm run export",
     "test": "jest"
   },
